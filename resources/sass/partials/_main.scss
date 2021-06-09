@@ -1,0 +1,30 @@
+main {
+    flex-grow: 1;
+    background-color: rgba(33, 86, 121, 0.932);
+}
+h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 200;
+}
+
+.cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0;
+}
+.card {
+    margin: 20px 10px;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    background: rgb(204, 205, 223);
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.726);
+    box-shadow: 0 8px 6px -6px rgb(70, 69, 69);
+}
+
+.card div {
+    padding: 10px 0;
+}
