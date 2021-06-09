@@ -3,7 +3,7 @@
 
 @section('main-content')
 
-    <h2 class="uppercase"> top 10 movies</h2>
+    <h2 class="uppercase"> movies database</h2>
     <section class="container">
         <div class="flex cards">
             @foreach ( $movies as $movie )
